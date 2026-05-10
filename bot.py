@@ -4,6 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 TOKEN = "8733211848:AA...FPyyCOUFOhXt8SD32KRUKnoA508DHB7GY"
 
 
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "👑 Mira AI is online.\n\nCommands:\n/idea\n/money\n/caption"
@@ -18,13 +19,13 @@ async def idea(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def money(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "💰 Monetization:\nCharge creators monthly for viral captions and content ideas."
+        "💰 Monetization:\nCharge creators monthly for viral captions."
     )
 
 
 async def caption(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "📢 Caption:\nHustle silently until your success becomes noise."
+        "📢 Hustle silently until success becomes noise."
     )
 
 
